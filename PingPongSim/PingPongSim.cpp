@@ -6,7 +6,7 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 
-	/*UDEEngine* engineIF = new UDEEngine();
+	UDEEngine* engineIF = new UDEEngine();
 	SET_UDEIF(engineIF);
 
 	engineIF->Randomize();
@@ -14,7 +14,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	engineIF->SetModel(new PingPongSim());
 	engineIF->SimulationStart();
-	engineIF->DeleteModel();*/
+	engineIF->DeleteModel();
 
 	return 0;
 }
