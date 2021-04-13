@@ -2,11 +2,11 @@
 
 class Refree : public UDEAModel
 {
-	enum _State { WAIT, JUDGE } m_State;
+	enum _State { WAIT, ACT } m_State;
 
 public:
-	enum _Inport { RESULT };
-	enum _Outport { START };
+	enum _InPort { STOP };
+	enum _OutPort { START };
 
 	Refree();
 	~Refree();

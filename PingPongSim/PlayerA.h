@@ -5,8 +5,8 @@ class PlayerA : public UDEAModel
 	enum _State { WAIT, ACT } m_State;
 
 public:
-	enum _Inport { BALL_IN_FROM_B };
-	enum _Outport { BALL_OUT_FROM_A };
+	enum _InPort { BALL_IN_FROM_B, START_FROM_REFREE };
+	enum _OutPort { BALL_OUT_FROM_A };
 
 	PlayerA();
 	~PlayerA();
